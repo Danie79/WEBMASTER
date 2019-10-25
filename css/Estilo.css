@@ -1,0 +1,311 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+body{position: absolute;}
+@font-face{
+	font-family: LetraGot;
+	src:url(Font/Lucida.ttf);
+}
+#Indice{
+z-index: 1000;
+	position: absolute;
+	width: 100%;
+    position: fixed;
+	
+	}
+
+#Titulo{
+	left: 2%;
+	padding: 1%;
+	color:rgb(156,156,158);
+	text-shadow: .1rem .1rem blue;
+	font-family: LetraGot;
+	font-size: 2.5rem;
+	
+
+}
+#Subtitulo{
+    position: absolute;
+	right: 1.5%;
+	bottom: 3%;
+	color: blue;
+	font-size: 1rem;
+
+}
+#Subtitulo a{
+	color: blue;
+}
+
+
+
+}
+.Box{
+	width: 100%;
+	height:100vh;
+}
+
+#PgPrinc{
+
+	background: url(../img/paredA.jpg);
+	background-repeat: no-repeat;
+	background-position:top;
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 800px;
+
+}
+#Pg1{
+	position: relative;
+	background: url(../img/Cerve1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: scroll;
+    background-position:top;
+	height: auto;
+	padding-top: 2.5%;
+
+
+}
+#Pg1BoxA{
+	
+	width: 80%;
+	padding: 2%;
+	background-color:rgba(179,182,196,35%);
+	background-position: center;
+	margin: auto;
+	position: relative;
+	top: 20%;
+	bottom: 25%;
+	/*color:rgb(264,69,13);*/
+	color:black;
+	font-size: 1.25rem;
+}
+#Pg1BoxB{
+	font-size: 1.25rem;
+}
+#Pg2{
+	height: auto;
+	padding-bottom: 3%;
+background-attachment: scroll;
+	background-color: rgb(65,65,71);
+}
+#Pg2BoxA{
+	padding: 2%;
+	text-align: center;
+	color: blue;
+	font-size: 1.25rem;
+}
+#Pg2BoxB{
+	width: 100%;
+	margin-left:auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background: orange;
+}
+.MarcoPg2{
+	width: 200px;
+	height: 180px;
+}
+#Pg3{
+	
+	position: relative;
+	top: 35%;
+	background: url(../img/Cerve7.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: scroll;
+    /*background-position: center;*/
+	
+
+}
+#Pg3Cont{
+	/*background: green;*/
+text-align: center;
+	height: auto;
+	/*position: relative;
+	top: 20%;*/
+	padding-top: 5%;
+	margin: auto;
+	color: white;
+
+}
+#NomFran,#TelFran,#EmaFran,#RazFran,#DirFran,#MenFran{
+	margin-top: 1%;
+
+
+}
+#BotFran{
+	margin-top: 2%;
+	padding-left: 3%;
+}
+#Pg3BoxA{
+	/*background-color:rgba(179,182,196,20%);*/
+	padding: 1.5%;
+	margin: auto;
+
+}
+#Pg3BoxC{
+		background-color:rgba(179,182,196,70%);
+	width: 90%;
+	padding: 1.5%;
+	margin-bottom: 3%;
+
+	}
+	#FormFran{
+		margin: 2%;
+		margin-bottom: 5%;
+	}
+	#Pg3BoxD{
+		color:white;
+	}
+	#Pg4{
+		
+		height: auto;
+        text-align: center;
+	}
+#Pg4Fondo{
+	
+	background: url(../img/Elab10.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: scroll;
+    background-position:top;
+   
+	
+
+}
+#Pg4Conte{
+	background: rgba(54,54,55,90%);
+	color: orange;
+	padding-top: 2%;
+}
+#Pg4BoxA{
+	/*padding-top: 2%;*/
+}
+@media screen and (max-width: 1230px) {
+ #Titulo{font-size:1.5rem;
+text-shadow: none;
+ }	
+#Pg1{
+	/*position: absolute;
+	top: 55%;*/
+	background-position: top 35%;
+}
+ #Pg1BoxA{
+	background-color:rgba(179,182,196,50%);
+	position: relative;
+	top: 13%;
+ }	
+#Pg1BoxB{
+	font-size: 1.1rem;
+	column-count: 4;
+	column-gap: 30px; 
+} 
+ #Pg3{
+	height: auto;
+ }
+}
+/*dispositivos medianos*/
+@media screen and (max-width: 1009px)  {
+
+
+#Pg1{
+	height: auto;
+	background-position: top 45%;
+	background-repeat: repeat;
+}	
+#PgPrinc{
+	height: 740px;
+}
+
+#Pg1BoxA{
+	background-color:rgba(179,182,196,70%);
+}	
+#Pg1BoxB{
+	font-size: 1rem;
+	column-count: 3;
+	column-gap: 40px; 
+}
+#Pg2BoxB{
+	padding-bottom: 5%;
+}
+#Pg3{
+	background-repeat: repeat;
+height: auto;
+}	
+#Pg3Cont{
+	background:rgba(246,146,7,70%);
+	
+}	
+#Pg3BoxC{
+		background-color:rgba(150,145,164,85%);
+	
+
+	}
+} 
+@media screen and (max-width:850px){
+	#Pg3Cont{
+	background:rgba(246,146,7,92%);
+	
+}	
+#Pg3BoxC{
+		background-color:rgb(105,100,110);
+	
+
+	}
+#NomFran,#TelFran,#EmaFran,#RazFran,#DirFran,#MenFran{
+	margin-top: 2%;
+}
+
+
+}
+/*dispositivos pequenos*/
+@media screen and (max-width: 599px){
+#Titulo{font-size: 1rem}
+.Box{height: 580px}
+#PgPrinc{
+	height: 350px;
+}
+#Pg1{
+	padding-top: 3.5%;
+	padding-bottom: 3%;
+	position:relative;
+	background: url(../img/paredB.jpg);
+	background-repeat:repeat;
+	background-size: 100%;
+	background-attachment: scroll;
+    background-position:top;
+	}
+#Pg1BoxA{
+ background:0;
+ color: white;
+  }
+#Pg1BoxB{
+	
+	column-count: 1;
+	column-gap:0;
+}
+#Pg3Cont{
+	background:rgb(246,146,7);
+	
+}	
+#Pg3BoxC{
+		background-color:rgba(65,65,71);
+	
+
+	}
+#Pg4Conte{
+	background: rgb(54,54,55);
+	}		
+}
+
+#Pie{
+	height: auto;
+text-align: center;
+color: white;
+background-color: black;
+padding: 1%;
+}
